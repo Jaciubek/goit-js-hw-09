@@ -1,0 +1,73 @@
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.block {
+    display: flex;
+    padding: 5px;
+    margin: 5px;
+    flex-flow: column wrap;
+    gap: 5px;
+}
+
+#datetime-picker {
+    width: 250px;
+    height: 50px;
+    border: 2px solid rgba(37, 3, 158, 0.5);
+    border-radius: 5px;
+    outline: none;
+    font-size: 28px;
+    text-align: center;
+}
+
+button {
+    width: 250px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    background: rgb(3, 224, 240);
+    color: rgb(0, 0, 0);
+    font-size: 28px;
+}
+
+button:disabled {
+    border: 2px solid #000;
+    background: rgb(97, 95, 95);
+    color: rgb(61, 57, 57);
+}
+
+.timer {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.field {
+    display: flex;
+    flex-flow: row nowrap;
+    text-align: center;
+    align-items: center;
+}
+
+.value {
+    font-size: 78px;
+    font-weight: 700;
+    color:red;
+}
+
+.label {
+    font-size: 58px;
+    font-weight: 500;
+    color:mediumblue;
+    writing-mode:horizontal-tb;
+    letter-spacing: 0.1em;
+    }
+
+.flatpickr-day.selected {
+    background: rgba(0, 80, 0, 0.5);
+    border-color: rgba(0, 80, 0, 0.5);
+}
