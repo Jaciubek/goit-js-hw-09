@@ -1,0 +1,2 @@
+.container{justify-content:center;align-items:center;display:flex}.switcher{justify-content:center;align-items:center;gap:5px;display:flex}button[data-start],button[data-stop]{text-transform:uppercase;cursor:pointer;padding:12px 14px;font-size:20px;transition:all .25s ease-in-out}
+/*# sourceMappingURL=01-color-switcher.080b46d4.css.map */
